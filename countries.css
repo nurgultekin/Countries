@@ -1,0 +1,81 @@
+.header {
+    display: flex;
+    background-color: bisque;
+    color: white;
+    justify-content: center;
+    height: 200px;
+}
+
+.header h1 {
+    background-color: rgb(189, 206, 200);
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    background-color: antiquewhite;
+    height: 200px;
+
+}
+
+
+.content {
+    background-color: rgb(183, 183, 224);
+    flex: 1;
+}
+
+/*If you wanna do scroll feature in a specific body, use "overflow: scroll". You can also do overflow:hidden" to avoid scrolling*/
+
+
+/*top, left, right, bottom*/
+
+.container {
+    display: flex;
+    background-color: blue;
+    height: 100vh; /* Adjusted height to cover the full viewport height */
+}
+
+
+.footer {
+    background-color: gray;
+    text-align: center;
+    padding: 1
+    0px;
+}
+
+
+.nav {
+    width: 10%;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav li {
+    margin: 5px 0;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+.flag {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px; 
+}
+
+.footer {
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+}
+
